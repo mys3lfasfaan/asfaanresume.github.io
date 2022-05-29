@@ -1,0 +1,82 @@
+h1 , h2{
+    text-align: center;
+}
+
+h3{
+    font-size: large;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+img:hover{
+    width: 500px;
+}
+
+.info{
+    display:block;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.edu , .interests,.exp ,.skills{
+    font-family: sans-serif;
+    display: inline-table;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255,0.1);
+    background-size: cover;
+}
+
+.edu{
+    max-width: 370px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.outer{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+}
+
+
+body{
+    background-image:url(https://www.teahub.io/photos/full/33-331795_turquoise.png);
+    background-size:cover;
+}
+
+.line{
+    height: 5px;
+    background-color: crimson;
+    border: 2px;
+    border-color: crimson;
+
+}
+
+p{
+    display: inline;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+
+
+h3{
+    display: inline;
+    text-align: center;
+    font-family: sans-serif;
+}
+
