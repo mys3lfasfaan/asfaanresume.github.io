@@ -10,11 +10,13 @@ img{
     width: 300px;
     display: block;
     margin: auto;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
 }
 
 
 img:hover{
     width: 500px;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
 }
 
 .info{
@@ -32,7 +34,9 @@ img:hover{
     padding: 10px;
     background-color: rgba(0, 0, 255,0.1);
     background-size: cover;
+    box-shadow: 0 0 20 0 rgba(0, 0, 255,0.1);
 }
+
 
 .edu{
     max-width: 370px;
@@ -62,7 +66,7 @@ body{
     background-color: crimson;
     border: 2px;
     border-color: crimson;
-
+    box-shadow: 0 0 20px 0 crimson;
 }
 
 p{
@@ -70,9 +74,6 @@ p{
     text-align: left;
     font-family: sans-serif;
 }
-
-
-
 
 h3{
     display: inline;
