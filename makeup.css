@@ -23,36 +23,30 @@ img:hover{
     display:block;
     width: fit-content;
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     font-family: sans-serif;
-}
-
-.edu , .interests,.exp ,.skills{
-    font-family: sans-serif;
-    display: inline-table;
-    margin: 20px;
-    padding: 10px;
     background-color: rgba(0, 0, 255,0.1);
     background-size: cover;
     box-shadow: 0 0 20 0 rgba(0, 0, 255,0.1);
 }
 
-
-.edu{
-    max-width: 370px;
+.edu , .interests, .exp ,.skills{
+    font-family: sans-serif;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255,0.1);
+    background-size:contain;
+    box-shadow: 0 0 20 0 rgba(0, 0, 255,0.1);
 }
+
 
 .container{
     display: flex;
-    align-items: center;
     width: 80%;
-}
-
-.outer{
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    margin-left: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -61,7 +55,7 @@ body{
     background-size:cover;
 }
 
-.line{
+hr{
     height: 5px;
     background-color: crimson;
     border: 2px;
