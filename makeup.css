@@ -28,7 +28,7 @@ img:hover{
     font-family: sans-serif;
     background-color: rgba(0, 0, 255,0.1);
     background-size: cover;
-    box-shadow: 0 0 20 0 rgba(0, 0, 255,0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,1);
 }
 
 .edu , .interests, .exp ,.skills{
@@ -38,7 +38,7 @@ img:hover{
     padding: 10px;
     background-color: rgba(0, 0, 255,0.1);
     background-size:contain;
-    box-shadow: 0 0 20 0 rgba(0, 0, 255,0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,1);
 }
 
 
@@ -74,4 +74,3 @@ h3{
     text-align: center;
     font-family: sans-serif;
 }
-
